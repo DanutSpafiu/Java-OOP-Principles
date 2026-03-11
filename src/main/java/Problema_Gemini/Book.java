@@ -10,6 +10,14 @@ public class Book extends Document{
         this.literaryGenre = literaryGenre;
     }
 
+    public int getPageNumber() {
+        return pageNumber;
+    }
+
+    public String getLiteraryGenre() {
+        return literaryGenre;
+    }
+
     @Override
     public void showDetails() {
         System.out.println("Title: " + getTitle());

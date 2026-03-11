@@ -10,6 +10,14 @@ public class Magazine extends Document {
         this.brand = brand;
     }
 
+    public String getEdition() {
+        return edition;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
     @Override
     public void showDetails() {
         System.out.println("Title: " + getTitle());
